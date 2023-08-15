@@ -1,0 +1,138 @@
+
+
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+
+    #header{
+      width:370px;
+      height:180px;
+      border-radius: 15px;
+      border-right:3px solid white;
+      border-bottom:3px solid white;
+      color:white;
+      position: relative; 
+      left:39.5%; 
+      box-shadow: 11px 15px rgba(0, 0, 0, 0.4) ;
+    }
+
+    header, h1{
+        font-size: 77px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    header, h4{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #header-title-ar{
+        color:white;
+        font-size: 55px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        display:flex;
+        justify-content: flex-end;
+        padding-right:22px;
+    }
+
+    #header-title-en{
+        color:white;
+        font-size: 55px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        display:flex;
+        justify-content: flex-start;
+        padding-left:22px;
+    }
+
+    body{
+        /* font-family: 'Almarai', sans-serif;
+        font-family: 'Saira Extra Condensed', sans-serif; */
+        /* font-family: 'Tajawal', sans-serif; */
+        background: blue;
+    }
+
+    #body{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .card{
+        width:200px;
+        height:250px;
+        background: #eba3a3;
+        margin:22px;
+        text-align: center;
+        border-radius: 11px;
+        box-shadow: 11px 15px rgba(0, 0, 0, 0.4) ;
+    }
+
+    .text{
+        background: blue;
+        color:white;
+        padding:3px;
+        width:180px;
+        margin:11px;
+        border-radius: 11px;
+    }
+
+    hr{
+        width:84%;
+        height:4px;
+        margin:auto;
+        border-color:white;
+    }
+
+    .select-option{
+        width:330px;
+        height:55px;
+        font-size: 30px; 
+        padding-left: 15px;
+        font-weight:bold;
+        border-radius: 11px;
+        box-shadow: 11px 15px rgba(0, 0, 0, 0.4) ;
+        color:blue;
+        background: #eba3a3;
+
+    }
+
+    .time, h1{
+        font-size:55px;
+        font-weight:bold;
+        padding-top: 33px;
+        }
+
+    #city-name{
+        padding-top:15px;
+    }
+
+    #toggle-lang{
+         width:33px; 
+         color:white;
+         font-size:25px;
+         font-weight:bolder;
+         padding-top: 11px;
+         padding-left: 66px;
+         padding-right: 66px;
+         display: flex;
+        justify-content: center;
+    }
+
+    #toggle-lang span{
+        color:white;
+        font-size:25px;
+        font-weight:bolder;
+        /* padding-top: 11px;*/
+        padding-left: 22px;
+        padding-right: 22px; 
+        display: flex;
+       justify-content: center;
+   }
+
+
+

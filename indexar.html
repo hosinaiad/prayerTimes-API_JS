@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API on axios Library</title>
+
+    <!-- fonts-google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Saira+Extra+Condensed:wght@100&family=Tajawal:wght@800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div  dir="rtl"><a href="index.html" id="toggle-lang">EN <span> >> </span>  </a></div><br>
+
+       <!-- Country -->
+      <div id="header-title-ar"><b><p>ليبيا</p></b></div>
+    <!--/ Country /-->
+
+    <!-- City & Date -->
+    <div id="header">
+        <h1 id="city-name">طرابلس</h1><br>
+        <h4 id="date"></h4><br>
+    </div><br><br><hr>
+    <!--/ City & Date /-->
+
+    
+
+    <!-- Start Cards -->
+    <div id="body" dir="rtl">
+
+        <!-- Card (1) -->
+        <div class="card">
+                <div id="card01">
+                    <h2 class="text">الفجر</h2>
+                </div><hr><br>
+                <div class="time" id="fajr-time"><br>
+                    <h1>
+                        <!-- 4:30 -->
+                    </h1>
+                </div><hr>
+        </div>
+
+        <!-- Card (2) -->
+        <div class="card">
+             <div id="card02">
+                <h2 class="text">الشروق</h2>
+             </div> <hr> <br>
+             <div class="time" id="sunrise-time"><br>
+                <!-- <h1>
+                    4:30
+                </h1>--> 
+             </div><hr>
+             
+        </div>
+
+        <!-- Card (3) -->
+        <div class="card">
+             <div id="card03">
+                <h2 class="text">الظهر</h2>
+             </div> <hr> <br>
+             <div class="time" id="dhuhr-time"><br>
+                <!-- <h1>
+                    4:30
+                </h1>--> 
+             </div><hr>
+             
+        </div>
+
+        <!-- Card (4) -->
+        <div class="card">
+            <div id="card04">
+                <h2 class="text">العصر</h2>
+            </div> <hr> <br>
+            <div class="time" id="asr-time"><br>
+                <!-- <h1>
+                    4:30
+                </h1>--> 
+            </div><hr>
+            
+        </div>
+
+        <!-- Card (5) -->
+        <div class="card">
+            <div id="card05">
+                <h2 class="text">المغرب</h2>
+            </div> <hr> <br>
+            <div class="time" id="sunset-time"><br>
+                <!-- <h1>
+                    4:30
+                </h1>--> 
+            </div><hr>
+            
+        </div>
+
+        <!-- Card (6) -->
+        <div class="card">
+            <div id="card06">
+                <h2 class="text">العشاء</h2>
+            </div> <hr><br>
+            <div class="time" id="isha-time"><br>
+                <!-- <h1>
+                    4:30
+                </h1>-->
+            </div><hr> 
+            
+        </div>
+
+    </div><hr><br>
+    <!-- End Cards -->
+
+
+
+    <!-- Footer -->
+    <center>
+
+<br>
+<select name="" id="cities-select" class="select-option" >
+     <option value="" class="select-option" id="input">اختر مدينة</option>
+    <!--<option value="" class="select-option">Tripoli</option>
+    <option value="" class="select-option">Benghazi</option>
+    <option value="" class="select-option">Sabha</option> -->
+</select>
+
+</center>
+
+
+<!-- To import axios Library and we can use it we next script -->
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+
+<script src="scriptar.js"></script>
+
+
+</body>
+
+</html>
